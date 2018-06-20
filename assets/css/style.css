@@ -1,0 +1,96 @@
+
+body {
+    background: url(../images/blkgem-pattern.jpg);
+    font-family: 'Geostar Fill', 'Cursive;', 'Arial';
+    color: rgba(230, 0, 0, 0.993);
+  
+}
+
+.card{
+    margin-top: 10px;
+    border-radius: 5px;
+    border: rgba(230, 0, 0, 0.993) ridge thick;
+}
+
+#instruction-Card {
+    font-family: 'Kanit', sans-serif;
+}
+
+#col-left {
+    margin-top: 15px;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 5px;
+    border:rgba(230, 0, 0, 0.993) ridge thick;
+}
+
+#col-right {
+    margin-top: 15px;
+    font-family:'Varela Round', sans-serif;
+    border-radius: 5px;
+    border: rgba(230, 0, 0, 0.993) ridge thick;
+}
+
+.gems {
+    margin: 10px;
+    margin-top: 10px;
+    width: 125px;
+    height: 125px;
+    border-radius: 5px;
+    border: rgba(230, 0, 0, 0.993) solid;
+}
+
+#purpleButton {
+    font-family: 'Kanit', sans-serif;
+    border: #FFFFFF solid thin;
+    background:rgba(127, 0, 230, 0.993);
+}
+
+#blueButton {
+    font-family: 'Kanit', sans-serif;
+    border: #FFFFFF solid thin;
+    background: rgba(4, 0, 230, 0.993);
+}
+
+#redButton {
+    font-family: 'Kanit', sans-serif;
+    border: #FFFFFF solid thin;
+    background: rgba(230, 0, 0, 0.993);
+}
+
+#greenButton {
+    font-family: 'Kanit', sans-serif;
+    border: #FFFFFF solid thin;
+    background: rgba(19, 182, 4, 0.986)
+    
+}
+
+#winCount {
+    font-size: 1.5em;   
+    font-weight: bold;
+}
+
+#lossCount {
+    font-size: 1.5em; 
+    font-weight: bold;
+}
+
+#randomNumber {
+    font-size: 1.5em; 
+    font-weight: bold;
+}
+
+#userScore {
+    height: 30px;
+    font-size: 1.5em; 
+    font-weight: bold;
+}
+
+footer{
+    padding: 14px;
+    margin-top: 38px;
+    height: 44px;   
+    text-align: center;
+    font-size: 0.7em;
+    background: #FFFFFF;
+    border-top: rgba(230, 0, 0, 0.993) solid thick;
+}

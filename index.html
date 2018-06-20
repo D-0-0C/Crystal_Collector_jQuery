@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>❖Crystal Collector❖</title>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Reset CSS -->
+  <link rel="stylesheet" type="text/css" href="../Crystal_Collector_jQuery/assets/css/reset.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <!--CSS Stylesheet-->
+  <link rel="stylesheet" href="../Crystal_Collector_jQuery/assets/css/style.css">
+  <!-- Linking Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Geostar+Fill|Kanit" rel="stylesheet">
+  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="card" "row">
+            <h1 class="text-center">❖Crystal Collector❖</h1>
+            <h3 class="text-center">Press any of the collect buttons to start!</h3>
+        </div>
+    </div>  
+
+    <div class="card" id="instruction-Card">
+        <h5>❖At the start of the game round you will be given a sacred crystal number that you want to match by collecting a certain number of the four types of sacred crystals.</h5>
+        <h5>❖Each of the four sacred crystals below will have a random assigned value. By cllicking on each of the four "collect" buttons you will add a specific number to your total score.</h5>
+        <h5>❖You will win the game round by matching your total score to the sacred crystal number. You will lose if your total score is greater than the sacred crystal number.</h5>
+        <h5>❖The assigned value of each of the four sacred crystals will intially be hidden at the start of the game, until the "collect" button is pressed revealing its value.</h5>
+        <h5>❖Remember, at the start of each new game round the sacred crystal number will change and the assigned value of each of the four sacred crystals will be changed.</h5>
+    </div>
+
+
+    <div class="row" id="columns-container">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="col-left">
+            <div class="text-center" "col-xs-3 col-sm-3 col-md-9 col-lg-9">
+                    <img class="gems" id="num1purpleGem" src="../Crystal_Collector_jQuery/assets/images/amethyst.jpg" alt="amethyst">
+                    <button type="button" class="btn btn-primary" id="purpleButton">Collect</button>
+
+                    <img class="gems" id="num2blueGem" src="../Crystal_Collector_jQuery/assets/images/blueSapphire.jpg" alt="blueSapphire">
+                    <button type="button" class="btn btn-primary" id="blueButton">Collect</button>
+
+                    <img class="gems" id="num3redGem" src="../Crystal_Collector_jQuery/assets/images/redSapphire.jpg" alt="redSapphire">
+                    <button type="button" class="btn btn-primary" id="redButton">Collect</button>
+
+                    <img class="gems" id="num4greenGem"  src="../Crystal_Collector_jQuery/assets/images/emerald.jpg" alt="emerald">
+                    <button type="button" class="btn btn-primary" id="greenButton">Collect</button>
+                    </div>
+                </div> 
+                
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="col-right">
+                <div class= "card" "row col-right prompt"> 
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> 
+                        <div class="text-center">
+                            <h3><strong> It's time to match the sacred crystal number!</strong></h3>
+                        </div>
+                        <div>
+                        </div>
+                    </div> 
+                </div> 
+
+                    <div class="card"> 
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> 
+                                <div class= "row" id="win-lose"> 
+                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"> 
+                                        <div>
+                                            <h4 class="text-center"><strong>Wins:</strong>    </h4>
+                                            <div class="text-center"  id="winCount"></div>
+                                            </div>
+                                        </div> 
+                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                        <div>
+                                            <h4 class="text-center"><strong>Losses:</strong>    </h4>
+                                            <div class="text-center" id="lossCount"></div>
+                                            </div>
+                                        </div> 
+                                    </div> 
+                                <div>
+                                    <h4 class="text-center"><strong>Match the sacred crystal # of:</strong>    </h4>
+                                    <div class="text-center" id= "randomNumber"></div>
+                                </div>
+                
+                                <div>
+                                    <h4 class="text-center"><strong>Player total score:</strong>  </h4>
+                                    <div class="text-center" id="userScore" "text-center"></div>
+                                </div>
+                            </div> 
+                        </div> 
+                    </div> 
+                </div>
+            </div>                         
+        </div>  
+
+        <br>
+        <footer><strong>©Copyright</strong></footer>
+
+    </div>
+   
+    <script src="../Crystal_Collector_jQuery/assets/javascript/game.js" type="text/javascript"></script>  
+
+</body>
+
+</html>
+
+ 
